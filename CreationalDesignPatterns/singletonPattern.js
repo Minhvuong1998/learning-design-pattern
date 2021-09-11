@@ -12,6 +12,11 @@
 //  Bất kỳ lần thử nào tiếp theo cũng sẽ chỉ trả về instance đầu tiên
 // example  
 
+// Singleton được dùng khi nào?
+// Đối tượng tiêu tốn quá nhiều thời gian hoặc tài nguyên khi tạo đối tượng nhưng được sử dụng thường xuyên. 
+// Hệ thống chỉ cần một đối tượng thể hiện.
+// Các đối tượng cần được khởi tạo thường xuyên và sau đó bị phá hủy
+
 class Database {
   constructor(data) {
     if (Database.exists) {

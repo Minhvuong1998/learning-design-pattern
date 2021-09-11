@@ -7,10 +7,16 @@
   <title>Document</title>
 </head>
 <body>
-  <script src="./CreationalDesignPatterns/singletonPattern.js"></script>
+  <button>click</button>
+  <!-- <script src="./CreationalDesignPatterns/singletonPattern.js"></script> -->
+  <script src="./StructuralDesignPatterns/adapterPattern.js"></script>
 </body>
 </html>
 <script>
+  var button = document.querySelector('button');
+  button.addEventListener('click', function(e) {
+    console.log(123);
+  });
 // Cú pháp
 // Arrow function thường ngắn gọn hơn function
 // Arrow function không bind this
@@ -20,5 +26,19 @@
 // Arrow function không có thuộc tính prototype
 // Arrow function không được hoisted
 // https://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript
-</script>
 
+
+
+
+/**
+ *                               * Construct pattern
+ * Creational Design Patterns => * Factory pattern   => Simple factory, Factory method, Abstract factory,
+ *                               * Prototype pattern
+ *                               * Singleton pattern
+ * Structural Design Patterns
+ * 
+ * 
+ * Behavioral Design Patterns
+ **/
+
+</script>
