@@ -82,5 +82,3 @@ function run() {
   log.add("New cost: " + cost);
   log.show();
 }
-
-console.log(run());
